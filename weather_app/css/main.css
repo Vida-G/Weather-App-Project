@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+  }
+  
+  #bg { 
+    background-image: url("../images/home.gif");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+#dataForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#submitButton{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#cityName{
+    margin-top: 1ch;
+    margin-bottom: 1ch;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    text-align: center;
+    font-size: 2ch;
+}
+#highTemp{
+    width: 18ch;
+}
+
+#highCell{
+    background-color: rgba(105, 190, 255, 0.4);
+}
+
+#lowTemp{
+    width: 18ch;
+}
+
+#lowCell{
+    background-color: rgba(105, 190, 255, 0.4);
+}
+
+#forecast{
+    width: 18ch;
+}
+
+#forecastCell{
+    background-color: rgba(105, 190, 255, 0.4);
+}
+
+#humidity{
+    width: 18ch;
+}
+
+#humidityCell{
+    background-color: rgba(105, 190, 255, 0.4);
+}
+
+
